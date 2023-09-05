@@ -13,7 +13,7 @@
 <body>
     <h1>Calculadora de Financiamento</h1>
     
-    <form action="/FinanceServlet" method="post">
+    <form action="FinanceServlet" method="post">
         <label for="loanAmount">Valor do Empréstimo:</label>
         <input type="text" id="loanAmount" name="loanAmount" required><br><br>
         

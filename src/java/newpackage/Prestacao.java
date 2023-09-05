@@ -9,5 +9,18 @@ package newpackage;
  * @author zanat
  */
 public class Prestacao {
-    
+    private int numero;
+    private double parcelaFixa;
+    private double valorJuros;
+    private double custoOperacao;
+    private double valorTotalPrestacao;
+
+    public Prestacao(int numero, double parcelaFixa, double valorJuros, double custoOperacao, double valorTotalPrestacao) {
+        this.numero = numero;
+        this.parcelaFixa = parcelaFixa;
+        this.valorJuros = valorJuros;
+        this.custoOperacao = custoOperacao;
+        this.valorTotalPrestacao = valorTotalPrestacao;
+    }
+
 }
